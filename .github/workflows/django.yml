@@ -39,7 +39,7 @@ jobs:
       # 5️⃣ Run Django Tests
       - name: Run Django Tests
         run: |
-          python myproject/manage.py test --settings=myproject.settings_test --verbosity=2
+          python myproject/manage.py test cours --settings=myproject.settings_test --verbosity=2
 
       # 6️⃣ Set up Docker Buildx
       - name: Set up Docker Buildx
