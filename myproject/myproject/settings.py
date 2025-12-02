@@ -78,11 +78,14 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'koyebdb',
-        'USER': 'koyeb-adm',
-        'PASSWORD': 'npg_pShcB8rKku5t',
-        'HOST': 'ep-solitary-dawn-a26alla3.eu-central-1.pg.koyeb.app',
-        'OPTIONS': {'sslmode': 'require'},
+        'NAME': 'demodb_8fyj',
+        'USER': 'demodb_8fyj_user',
+        'PASSWORD': 'QgWOL4zv9iydMgSlgjl6heRkXXkhjNwc',
+        'HOST': 'dpg-d4k84fruibrs73fatrsg-a.oregon-postgres.render.com',
+        'PORT': '5432',
+        'OPTIONS': {
+            'sslmode': 'require',
+        },
     }
 }
 
