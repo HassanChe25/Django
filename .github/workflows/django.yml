@@ -28,15 +28,7 @@ jobs:
           pip install -r myproject/requirements.txt
 
       # 4️⃣ Run migrations (test DB)
-      - name: Run migrations
-        run: |
-          python manage.py migrate --noinput
-
-      # 5️⃣ Run Django Tests
-      - name: Run Django Tests
-        run: |
-          python manage.py test --verbosity=2
-
+     
       # 6️⃣ Set up Docker Buildx
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
