@@ -34,9 +34,10 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       # 7️⃣ Build Docker Image
+     # 7️⃣ Build Docker Image
       - name: Build Docker Image
         run: |
-          docker build -t django-app .
+          docker build -f myproject/Dockerfile -t django-app .
 
   deploy:
     needs: build-and-test
