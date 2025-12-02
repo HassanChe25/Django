@@ -56,4 +56,4 @@ jobs:
           curl -X POST "$RENDER_DEPLOY_HOOK"
 
         env:
-          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+          RENDER_DEPLOY_HOOK: https://api.render.com/deploy/srv-d4n901buibrs7397hdlg?key=THvnG7iLIYY
